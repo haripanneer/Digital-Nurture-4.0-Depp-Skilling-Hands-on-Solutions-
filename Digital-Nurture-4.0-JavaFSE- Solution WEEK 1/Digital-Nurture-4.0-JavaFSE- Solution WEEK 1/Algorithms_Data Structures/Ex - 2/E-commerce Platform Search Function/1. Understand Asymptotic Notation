@@ -1,0 +1,55 @@
+Big O Notation:
+
+Describes the performance of an algorithm in terms of input size 𝑛
+n.
+
+Common complexities:
+𝑂(1)
+
+O(1): Constant time.
+
+𝑂(log 𝑛)
+
+O(logn): Logarithmic time.
+
+𝑂(𝑛)
+
+O(n): Linear time.
+
+𝑂(𝑛^2)
+
+O(n^2): Quadratic time.
+
+Best, Average, and Worst-Case Scenarios:
+
+Linear Search:
+
+Best: 
+
+𝑂(1)
+O(1) (Element found at the start).
+
+Worst: 
+
+𝑂(𝑛)
+O(n) (Element not found or at the end).
+
+Average: 
+
+𝑂(𝑛/2)=𝑂(𝑛)
+
+Binary Search:
+
+Best: 
+
+𝑂(1)
+O(1) (Element at the middle).
+
+Worst:
+
+𝑂(log ⁡𝑛)
+O(logn) (Element found after dividing the search range repeatedly).
+
+Average:
+ 
+𝑂(log 𝑛)

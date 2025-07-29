@@ -1,0 +1,24 @@
+We will predict future financial values using a recursive approach. Assume the future value is calculated using the formula:
+
+FV=PV×(1+r)^n
+
+ 
+Where:
+FV: Future Value
+
+PV: Present Value
+
+r: Growth rate per period
+
+n: Number of periods
+
+Using recursion:
+
+Base case: When 
+n=0, 
+
+𝐹𝑉=𝑃𝑉
+
+Recursive case: 
+
+𝐹𝑉(𝑛)=𝐹𝑉(𝑛−1)×(1+𝑟)

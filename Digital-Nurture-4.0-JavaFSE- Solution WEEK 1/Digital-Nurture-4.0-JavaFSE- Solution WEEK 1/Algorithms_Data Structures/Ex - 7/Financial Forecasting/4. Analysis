@@ -1,0 +1,32 @@
+Time Complexity:
+Recursive Approach:
+
+Time complexity: 
+O(n) because it makes 
+n recursive calls.
+
+Space complexity: 
+O(n) due to the function call stack.
+
+Optimization to Avoid Excessive Computation:
+To improve efficiency:
+
+Iterative Solution:
+
+Use a loop instead of recursion to reduce space complexity to 
+O(1).
+
+Memoization:
+
+Store intermediate results to avoid recalculating them.
+
+
+Optimized Iterative Solution:
+
+public static double calculateFutureValueIterative(double presentValue, double rate, int periods) {
+    double futureValue = presentValue;
+    for (int i = 0; i < periods; i++) {
+        futureValue *= (1 + rate);
+    }
+    return futureValue;
+}
