@@ -1,0 +1,80 @@
+.app {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.app.light {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.app.dark {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+.theme-toggle {
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.theme-toggle.light {
+  background-color: #333;
+  color: white;
+}
+
+.theme-toggle.dark {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.employees-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.employee-card {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.employee-card.light {
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.employee-card.dark {
+  background-color: #444;
+  border: 1px solid #666;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.action-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.action-btn.light {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.action-btn.dark {
+  background-color: #2E7D32;
+  color: white;
+}
+
+.action-btn:hover {
+  opacity: 0.8;
+}
